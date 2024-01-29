@@ -30,7 +30,10 @@ android {
 
 dependencies {
     implementation ("com.github.bumptech.glide:glide:4.12.0")
+    //implementation("androidx.annotation:annotation-jvm:1.7.1")
     annotationProcessor ("com.github.bumptech.glide:compiler:4.12.0")
+    implementation ("androidx.annotation:annotation:1.3.0")
+// Add other dependencies here with the same version
 
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")
